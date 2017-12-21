@@ -30,6 +30,6 @@ function doWhileLoop(arr) {
   }
  
   do {
-    console.log('doo-bee-doo-bee-doo')
+    arr.pop()
   } while (maybeTrue());
 }

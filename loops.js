@@ -28,10 +28,16 @@ function doWhileLoop(arr) {
   function maybeTrue() {
   return Math.random() >= 0.5
   }
- 
-  do {
-    arr.pop()
-  } while (maybeTrue() && arr.length > 0);
   
+  if (arr.length === 0) {
+    return arr
+  }
+  
+  else{
+ 
+    do {
+      arr.pop()
+    } while (maybeTrue() && arr.length > 0);
+  }
   return arr
 }

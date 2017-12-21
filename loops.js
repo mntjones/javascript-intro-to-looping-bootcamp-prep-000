@@ -10,4 +10,3 @@ function forLoop (arr) {
   }
 }
 
-forLoop()

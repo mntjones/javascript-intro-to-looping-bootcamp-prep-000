@@ -33,3 +33,5 @@ function doWhileLoop(arr) {
     arr.pop()
   } while (maybeTrue() && arr.length > 0);
 }
+
+doWhileLoop([1,2,3,4,5])

@@ -31,5 +31,5 @@ function doWhileLoop(arr) {
  
   do {
     arr.pop()
-  } while (maybeTrue());
+  } while (maybeTrue() && arr.length > 0);
 }

@@ -22,4 +22,3 @@ function whileLoop(num) {
   }
 }
 
-whileLoop(10)

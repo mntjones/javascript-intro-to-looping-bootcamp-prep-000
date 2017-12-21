@@ -5,7 +5,7 @@ function forLoop (arr) {
     }
     
     else {
-      console.log("I am  {i} strange loops." )
+      console.log("I am  " + i + " strange loops." )
     }
   }
 }
